@@ -199,3 +199,5 @@ u_image = np.array([[2018.9675324675327, 1295.0324675324675], [1202.305194805194
 coords = rw_coords(est)
 x_opt = coords.find_xopt(cam1, cam2, u_image)
 print(x_opt)
+
+# [272556 5193937.8 1004]
